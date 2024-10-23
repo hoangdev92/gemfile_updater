@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'bundler/setup'
+require 'gemfile_updater'
+
+# Run the updater
+GemfileUpdater::Updater.update_gemfile
